@@ -10,13 +10,12 @@ const Feedback = () => {
   const handleFeedback = name => {
     setState(prevState => ({ ...prevState, [name]: prevState[name] + 1 }));
   };
+  const total = state.good + state.bad + state.neutral;
+
   const countPositiveFeedbackPercentage = () => {
-    const array = Object.values(state);
-    const total = array.reduce((total, item) => (total += item));
     return total === 0 ? '0' : `${Math.round((state.good / total) * 100)}%`;
   };
 
-  const total = state.good + state.bad + state.neutral;
   const rateLevel = Object.keys(state);
 
   return (
