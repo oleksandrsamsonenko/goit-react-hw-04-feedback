@@ -1,0 +1,12 @@
+.list {
+  font-family: 'Montserrat';
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.count {
+  font-weight: 600;
+}

@@ -1,0 +1,17 @@
+.list {
+  font-family: 'Montserrat';
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.btn {
+  font-family: 'Montserrat';
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: palegoldenrod;
+  font-weight: 500;
+}

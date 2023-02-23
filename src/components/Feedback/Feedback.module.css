@@ -1,0 +1,12 @@
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 960px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  margin-top: 25px;
+  font-size: 36px;
+  text-align: center;
+}
