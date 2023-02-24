@@ -8,10 +8,7 @@ export const FeedbackOptions = ({ btnNames, handleFeedback }) => {
         {btnNames.map(item => {
           return (
             <li key={item}>
-              <button
-                className={css.btn}
-                onClick={() => handleFeedback(`${item}`)}
-              >
+              <button className={css.btn} onClick={() => handleFeedback(item)}>
                 {item}
               </button>
             </li>
